@@ -1,0 +1,65 @@
+.header {
+    position: relative;
+    min-height: 1030px;
+}
+
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 26px;
+    padding-bottom: 175px;
+}
+.nav_img{
+    display: flex;
+}
+.nav_img img:last-child {
+    padding-left: 15px;
+    
+}
+.nav_button button {
+    height: 1em;
+    width: 1em;
+}
+
+.company_name {
+    position: relative;
+    text-align: center;
+}
+.name {
+    font-size: 74px;
+    font-weight: 400;
+    line-height: 100%;
+    padding-bottom: 20px;
+}
+.name_practice {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+.proposal {
+    position: absolute;
+    min-width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    left: 50%;
+    transform: translate(-50%, 5%);
+}
+
+.proposal p {
+    padding: 20px 0 20px 30px;
+}
+
+.proposal button {
+    padding-right: 30px;
+}
+
+.header_back_img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

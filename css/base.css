@@ -1,0 +1,16 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1214px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}

@@ -1,0 +1,36 @@
+.advantages {
+    position: relative;
+    max-height: 900px;
+}
+
+.advantages_all h1 {
+    font-size: 48px;
+    padding: 336px 0 90px;
+
+}
+.desc {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: auto;
+}
+.desc_about {
+    display: flex;
+    max-width: 500px;
+    margin-bottom: 60px;
+    align-items: flex-start;
+}
+
+.desc_about img {
+    width: 50px;
+    padding-right: 20px;
+}
+
+.advantages_back_img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}

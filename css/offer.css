@@ -1,0 +1,54 @@
+.offer {
+    background-color: #1A1F25;
+    color: #FFFFFF;
+}
+
+.offer h1 {
+    font-size: 48px;
+    text-align: center;
+    padding: 90px 0 80px;
+}
+
+.offer_table {
+    display: grid;
+    gap: 0;
+    align-content: center;
+    grid-template-columns: auto auto auto auto auto;
+}
+.offer_prom {
+    max-width: 203px;
+    max-height: 118px;
+    margin: 0;
+    padding: 46px 19.9px;
+    text-align: center;
+}
+
+.offer_prom  img {
+    padding-bottom: 20px;
+}
+
+.offer_prom p {
+    line-height: 150%;
+}
+.offer_prom button {
+    color: #FFFFFF;
+}
+
+.offer_prom_1 {
+    max-width: 185px;
+    max-height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 33% auto;
+    line-height: 24px;
+    
+}
+
+.offer_prom_1 p {
+    padding: 17.5px 0 17.5px 30px;
+    font-size: 16px;
+}
+.offer_prom_1 button {
+    padding-right: 30px;
+}

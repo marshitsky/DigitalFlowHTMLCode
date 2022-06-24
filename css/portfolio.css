@@ -1,0 +1,38 @@
+.portfolio {
+    min-height: 983px;
+}
+.portfolio h1 {
+   font-size: 48px;
+   text-align: center;
+   padding: 90px 0 70px;
+}
+
+.portfolio_prop {
+    position: absolute;
+    z-index: 999;
+    min-width: 229px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    left: 75%;
+    top: 25.5%;
+}
+
+.portfolio_prop p {
+    padding: 20px 0 20px 30px;
+}
+.portfolio_prop button {
+    padding-right: 30px;
+}
+
+.portfolio_back_img {
+    position: relative;
+}
+
+.portfolio_back_img img {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+}
