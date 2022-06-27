@@ -10,17 +10,20 @@
 }
 
 .offer_table {
-    display: grid;
-    gap: 0;
+    display: flex;
+    flex-wrap: wrap;
     align-content: center;
-    grid-template-columns: auto auto auto auto auto;
+    border: none;
+    padding-bottom: 90px;
 }
 .offer_prom {
+    flex: 1 0 16%;
     max-width: 203px;
     max-height: 118px;
     margin: 0;
     padding: 46px 19.9px;
     text-align: center;
+    border: 1px solid #595959;
 }
 
 .offer_prom  img {
@@ -34,21 +37,58 @@
     color: #FFFFFF;
 }
 
-.offer_prom_1 {
-    max-width: 185px;
-    max-height: 55px;
+.offer_prom_btn {
+    min-width: 185px;
+    min-height: 55px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 33% auto;
+    margin: 15% auto;
     line-height: 24px;
-    
+    border: 0.5px solid #EEEEEE;
 }
 
-.offer_prom_1 p {
+.offer_p {
     padding: 17.5px 0 17.5px 30px;
     font-size: 16px;
 }
-.offer_prom_1 button {
+.offer_btn img {
     padding-right: 30px;
+    padding-bottom: 0;
+}
+
+
+.offer_prom:first-child {
+    border-left: none;
+    border-top: none;
+}
+
+.offer_prom:last-child {
+    border-right: none;
+    border-bottom: none;
+}
+
+.offer_prom:nth-child(5) {
+    border-right: none;
+    border-top: none;
+}
+
+.offer_prom:nth-child(11) {
+    border-left: none;
+    border-bottom: none;
+}
+
+.offer_prom:nth-child(-n+4) {
+    border-top: none;
+}
+
+.offer_prom:nth-child(n) {
+    border-bottom: none;
+}
+.offer_prom:nth-child(n) {
+    border-right: none;
+}
+
+.offer_prom:nth-child(6) {
+    border-left: none;
 }
