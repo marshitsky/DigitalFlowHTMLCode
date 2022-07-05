@@ -8,6 +8,7 @@
     justify-content: space-between;
     padding-top: 26px;
     padding-bottom: 175px;
+    position: relative;
 }
 .nav_img{
     display: flex;
@@ -16,10 +17,38 @@
     padding-left: 15px;
     
 }
-.nav_button button {
-    height: 1em;
-    width: 1em;
+
+.nav_button {
+    transform: scale(0.8);
 }
+.center {
+    top: 11%;
+    right: 2%;
+    position: absolute;
+    width: 50px;
+}
+  
+.center:before,
+.center:after,
+.center div {
+    background: rgb(0, 0, 0);
+    content: "";
+    display: block;
+    height: 6px;
+    border-radius: 3px;
+    margin: 7px 0;
+    transition: 0.5s;
+}
+.center:hover:before {
+    transform: translateY(12px) rotate(135deg);
+}
+.center:hover:after {
+    transform: translateY(-12px) rotate(-135deg);
+}
+.center:hover div {
+    transform: scale(0);
+}
+
 
 .company_name {
     position: relative;
