@@ -29,9 +29,11 @@
 }
 
 input, textarea {
-    opacity: 0;
+    opacity: 1;
     color: #FFFFFF;
+    background-color: transparent;
 }
+
 .inputs hr {
     border: 1px solid #FFFFFF;
     max-width: 509px;
