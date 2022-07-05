@@ -1,15 +1,23 @@
 .about_us {
     display: flex;
-    max-height: 940px;
-    max-width: 100%;
+    height: fit-content;
+    width: 100%;
+    background-color: #F1F1F1;
 }
+
 .about_us__img {
-    width: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.about_us__img  img {
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
 .about_us__desc {
     width: 50%;
+    height: 100%;
     text-align: right;
     background-color: #F1F1F1;
     padding: 275px 18.38% 274px 107px;
@@ -29,4 +37,38 @@
 
 .about_us__desc p:not(:last-child) {
     padding-bottom: 40px;
+}
+
+
+
+@media (max-width: 1023px) {
+    .about_us {
+        display: block;
+        
+    }
+
+    .about_us__img {
+        width: auto;
+        height: 470px;
+    }
+
+    .about_us__desc {
+        width: auto;
+        height: auto;
+        padding: 50px 9% 50px 25px;
+    }
+
+    .about_us__desc p {
+        line-height: 120%;
+    }
+}
+
+@media (max-width: 768px) {
+    .about_us {
+        min-height: 470px;
+    }
+
+    .about_us__img {
+        display: none;
+    }
 }
