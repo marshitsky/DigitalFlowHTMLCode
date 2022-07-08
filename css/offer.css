@@ -87,14 +87,18 @@
     border-bottom: none;
 }
 
-.offer_prom:nth-child(-n+4) {
+.offer_prom:nth-child(2),
+.offer_prom:nth-child(3),
+.offer_prom:nth-child(4) {
     border-top: none;
 }
 
-.offer_prom:nth-child(n) {
+.offer_prom:nth-child(12),
+.offer_prom:nth-child(13),
+.offer_prom:nth-child(14) {
     border-bottom: none;
 }
-.offer_prom:nth-child(n) {
+.offer_prom:nth-child(10) {
     border-right: none;
 }
 
@@ -115,85 +119,152 @@
     }
 }
 
-@media (max-width: 832px) {
+@media (max-width: 847px) {
     .offer_prom {
-        width: 20%;
+        width: 21%;
     }
 
-    .offer_prom:nth-child(11),
-    .offer_prom:nth-child(15) {
-        display: none;
-    }
-
-    .offer_prom:nth-child(13) {
-        order: 15;
-        border-top: none;
-        border-right: 1px solid #595959;
-    }
-
-    .offer_prom:nth-child(1),
-    .offer_prom:nth-child(2),
-    .offer_prom:nth-child(3),
-    .offer_prom:nth-child(10),
-    .offer_prom:nth-child(12),
-    .offer_prom:nth-child(14) {
-        border-bottom: 0.5px solid #595959;
-    }
-
-    .offer_prom:nth-child(6) {
-        border-top: none;
+    .offer_prom:nth-child(3) {
+        border-right: none;
     }
 
     .offer_prom:nth-child(4) {
+        border-top: 0.5px solid #595959;
         border-left: none;
+    }
+
+    .offer_prom:nth-child(5) {
+        border-top: 0.5px solid #595959;
+        border-right: 0.5px solid #595959;
+    }
+
+    .offer_prom:nth-child(6) {
+        border-left: 0.5px solid #595959;
+        border-right: none;
     }
 
     .offer_prom:nth-child(7) {
         border-left: none;
     }
 
-    .offer_prom:nth-child(10) {
-        border-left: none;
+    .offer_prom:nth-child(9) {
+        border-right: none;
     }
 
-    .offer_prom:nth-child(6) {
+    .offer_prom:nth-child(10) {
+        border-left: none;
+        border-right: 0.5px solid #595959;
+    }
+
+    .offer_prom:nth-child(11) {
+        order: 15;
+        border-top: 0.5px solid #595959;
+        border-left: 0.5px solid #595959;
+        border-right: none;
+    }
+
+    .offer_prom:nth-child(12) {
+        border-bottom: 0.5px solid #595959;
+    }
+
+    .offer_prom:nth-child(13) {
+        order: 14;
+        border-top: 0.5px solid #595959;
+        border-right: 0.5px solid #595959;
         border-left: 0.5px solid #595959;
     }
 
+
+    .offer_prom:nth-child(14) {
+        border-bottom: 0.5px solid #595959;
+        border-right: none;
+    }
+
+    .offer_prom:nth-child(15) {
+        border-right: 0.5px solid #595959;
+        border-left: none;
+    }
 }
 
-@media (max-width: 536px) {
 
-    .offer h1 {
-        font-size: 48px;
-        padding: 30px 0 30px;
-    }
 
+
+
+@media (max-width: 530px) {
     .offer_table {
-        padding-bottom: 30px;
+        padding-bottom: 5px;
     }
+
 
     .offer_prom {
-        width: 60%;
-        border-top: none;
+        width: 30%;
+    }
+    .offer_prom:nth-child(11),
+    .offer_prom:nth-child(15) {
+        display: none;
+    }
+
+    .offer_prom:nth-child(2) {
         border-right: none;
+    }
+
+    .offer_prom:nth-child(3),
+    .offer_prom:nth-child(5),
+    .offer_prom:nth-child(7),
+    .offer_prom:nth-child(9), 
+    .offer_prom:nth-child(12) {
+        border-top: 0.5px solid #595959;
+        border-right: 0.5px solid #595959;
         border-left: none;
+        border-bottom: 0.5px solid #595959;
     }
 
     .offer_prom:nth-child(4),
-    .offer_prom:nth-child(5),
     .offer_prom:nth-child(6),
-    .offer_prom:nth-child(7),
     .offer_prom:nth-child(8),
-    .offer_prom:nth-child(9) {
+    .offer_prom:nth-child(10),
+    .offer_prom:nth-child(14) {
+        border-right: none;
+        border-left: 0.5px solid #595959;
+        border-top: 0.5px solid #595959;
         border-bottom: 0.5px solid #595959;
     }
 
     .offer_prom:nth-child(13) {
         border-right: none;
+        border-left: none;
+        border-top: none;
+
+    }
+    
+}
+
+
+
+
+
+
+@media (max-width: 370px) { 
+
+    .offer h1 {
+        font-size: 36px;
+        padding: 30px 0 30px;
     }
 
-    .offer_prom:nth-child(6) {
-        border-left: none;
+    .offer_table {
+        padding-bottom: 5px;
     }
-}
+
+    .offer_prom {
+        padding: 23px;
+    }
+
+    .offer_p, .offer_prom p {
+        font-size: 12px;
+    }
+
+    .offer_prom img {
+        transform: scale(0.8);
+    }
+
+} 
